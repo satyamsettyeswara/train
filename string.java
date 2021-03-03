@@ -3,10 +3,16 @@ public class string{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
-		print(s);
+		print(s);	
+		reverse(s);
 	}
 	static void print(String s){
-		for(int i=0;i<S.length();i++){
+		for(int i=0;i<s.length();i++){
+			System.out.print(s.charAt(i)+" ");
+		}
+	}
+	static void reverse(String s){
+		for(int i=s.length-1;i>=0;i--){
 			System.out.print(s.charAt(i)+" ");
 		}
 	}
