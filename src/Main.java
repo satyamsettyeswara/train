@@ -5,6 +5,7 @@ public class Main{
 		String s = "hello";
 		print(s);
 		reverse(s);			
+		caps(s);
 	}
 	static void print(String s){
 		for(int i=0;i<s.length();i++){
@@ -16,5 +17,9 @@ public class Main{
 			System.out.print(s.charAt(i)+" ");
 		}
 	}
+	static void caps(String s){
+	System.out.println(s.toUpperCase());
+		}
+	
 }
 
