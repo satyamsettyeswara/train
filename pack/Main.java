@@ -12,7 +12,7 @@ public class Main{
 		}
 	}
 	static void caps(String s){
-		System.out.println(s.toString());
+		System.out.println(s.toString()+" Ghost");
 	}	
 }
 
